@@ -44,14 +44,19 @@ for (const jsonFile of jsonFiles) {
     const prompt = jsonData.prompt;
 
     // Construct the new filename with the job ID and image filename
-    const newFilename = `${jobId}-${imageFilename}`;
+    const newFilename = `${jobId}.png`;
 
     // Copy the PNG file to the destination directory with the new name and add the prompt to the metadata
-    await exiftool.write(`${pngFile}`, {
+    const newPath = path.join(destDir, newFilename)
+    if (fs.existsSync(newPath)) {
+      console.log("Already copied this file... Skipping!")
+    } 
+    await copyFile(pngFile, newPath );
+    await exiftool.write(`${newPath}`, {
       Title: prompt,
       CreateDate: jsonData.enqueue_time
     });
-    await copyFile(pngFile, path.join(destDir, newFilename));
+
     console.log(`Copied ${pngFile} to ${path.join(destDir, newFilename)}`);
   } catch (err) {
     console.error(`Error processing ${jsonFile}:`, err);
