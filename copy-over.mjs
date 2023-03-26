@@ -1,6 +1,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import {exiftool} from 'exiftool-vendored';
+import { copyFile } from 'fs/promises';
 
 // Check if the correct number of arguments are provided
 if (process.argv.length !== 4) {
@@ -50,7 +51,7 @@ for (const jsonFile of jsonFiles) {
       Title: prompt,
       CreateDate: jsonData.enqueue_time
     });
-    fs.copyFile(pngFile, path.join(destDir, newFilename));
+    await copyFile(pngFile, path.join(destDir, newFilename));
     console.log(`Copied ${pngFile} to ${path.join(destDir, newFilename)}`);
   } catch (err) {
     console.error(`Error processing ${jsonFile}:`, err);
