@@ -1,6 +1,6 @@
-import * as fs from ('fs');
-import * as path from ('path');
-import {exiftool} from ('exiftool-vendored');
+import * as fs from 'fs';
+import * as path from 'path';
+import {exiftool} from 'exiftool-vendored';
 
 // Check if the correct number of arguments are provided
 if (process.argv.length !== 4) {
@@ -29,20 +29,18 @@ for (const jsonFile of jsonFiles) {
 
     // Extract the image filename from the image URL
     const imageFilename = path.basename(imageUrl);
+    const jsonDirPath = path.dirname(jsonFile)
 
     // Find the corresponding PNG file
-    const pngFiles = findFiles(srcDir, new RegExp(`/${imageFilename}$`));
-    if (pngFiles.length === 0) {
-      console.warn(`Warning: PNG file not found for ${jsonFile}`);
-      continue;
-    }
-    const pngFile = pngFiles[0];
+    const pngFile = path.join(jsonDirPath, imageFilename);
+    console.log(pngFile)
+ 
 
     // Extract the job ID from the JSON data
     const jobId = jsonData.id;
 
     // Replace special characters in the prompt with underscores
-    const prompt = jsonData.prompt.replace(/[^\w\s]/g, '_');
+    const prompt = jsonData.prompt;
 
     // Construct the new filename with the job ID and image filename
     const newFilename = `${jobId}-${imageFilename}`;
@@ -50,9 +48,9 @@ for (const jsonFile of jsonFiles) {
     // Copy the PNG file to the destination directory with the new name and add the prompt to the metadata
     await exiftool.write(`${pngFile}`, {
       Title: prompt,
-      overwrite_original: true,
+      CreateDate: jsonData.enqueue_time
     });
-    fs.renameSync(pngFile, path.join(destDir, newFilename));
+    fs.copyFile(pngFile, path.join(destDir, newFilename));
     console.log(`Copied ${pngFile} to ${path.join(destDir, newFilename)}`);
   } catch (err) {
     console.error(`Error processing ${jsonFile}:`, err);

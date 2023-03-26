@@ -1,0 +1,57 @@
+{
+  "_job_type": null,
+  "_parsed_params": null,
+  "_service": null,
+  "avatar_job_id": null,
+  "cover_job_id": null,
+  "current_status": "completed",
+  "enqueue_time": "2022-09-22 15:50:57.833407",
+  "event": {
+    "height": 1024,
+    "textPrompt": [
+      "quality8k, floating rock with a castle on it in twinkling night sky, cinematic, photorealistic"
+    ],
+    "imagePrompts": null,
+    "width": 1024,
+    "batchSize": 1,
+    "textPromptWeights": [
+      1
+    ],
+    "seedImageURL": "https://cdn.midjourney.com/bd4fcf1f-84b0-4b02-9902-0740fc72eaed/0_2.png",
+    "eventType": "imagine",
+    "test": false
+  },
+  "flagged": false,
+  "followed_by_user": false,
+  "grid_id": null,
+  "grid_num": null,
+  "guild_id": "662267976984297473",
+  "hidden": false,
+  "id": "b6acbef2-7248-4e5e-b891-5fe819e755db",
+  "image_paths": [
+    "https://cdn.midjourney.com/b6acbef2-7248-4e5e-b891-5fe819e755db/0_0.png"
+  ],
+  "is_published": true,
+  "liked_by_user": false,
+  "low_priority": false,
+  "metered": false,
+  "mod_hidden": false,
+  "parent_grid": null,
+  "parent_id": null,
+  "platform": "discord",
+  "platform_channel": "newbies-127",
+  "platform_channel_id": "1008571102328541215",
+  "platform_message_id": "1022535762996121610",
+  "platform_thread_id": null,
+  "prompt": "quality8k, floating rock with a castle on it in twinkling night sky, cinematic, photorealistic",
+  "ranked_by_user": true,
+  "ranking_by_user": 5,
+  "type": "upscale",
+  "user_actions": null,
+  "user_id": "8279a880-e345-48b1-a207-c77385215a29",
+  "user_reactions": null,
+  "username": "Trebeljahr",
+  "full_command": "quality8k, floating rock with a castle on it in twinkling night sky, cinematic, photorealistic",
+  "reference_job_id": "bd4fcf1f-84b0-4b02-9902-0740fc72eaed",
+  "reference_image_num": "2"
+}

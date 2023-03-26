@@ -1,0 +1,57 @@
+{
+  "_job_type": null,
+  "_parsed_params": null,
+  "_service": null,
+  "avatar_job_id": null,
+  "cover_job_id": null,
+  "current_status": "completed",
+  "enqueue_time": "2022-09-22 21:00:04.58802",
+  "event": {
+    "height": 1024,
+    "textPrompt": [
+      "a sorcerers tower, overgrown with vines, broken down, enchanted, magical mystery, cinematic, photorealistic"
+    ],
+    "imagePrompts": null,
+    "width": 1024,
+    "batchSize": 1,
+    "textPromptWeights": [
+      1
+    ],
+    "seedImageURL": "https://cdn.midjourney.com/037cb91b-3678-4871-a9a3-7f20a03b15f0/0_0.png",
+    "eventType": "imagine",
+    "test": false
+  },
+  "flagged": false,
+  "followed_by_user": false,
+  "grid_id": null,
+  "grid_num": null,
+  "guild_id": null,
+  "hidden": false,
+  "id": "8f97240d-7f48-486e-b9b1-e41b728efc31",
+  "image_paths": [
+    "https://cdn.midjourney.com/8f97240d-7f48-486e-b9b1-e41b728efc31/0_0.png"
+  ],
+  "is_published": true,
+  "liked_by_user": false,
+  "low_priority": false,
+  "metered": false,
+  "mod_hidden": false,
+  "parent_grid": null,
+  "parent_id": null,
+  "platform": "discord",
+  "platform_channel": "DM",
+  "platform_channel_id": "1022535681219760179",
+  "platform_message_id": "1022613543444545627",
+  "platform_thread_id": null,
+  "prompt": "a sorcerers tower, overgrown with vines, broken down, enchanted, magical mystery, cinematic, photorealistic",
+  "ranked_by_user": true,
+  "ranking_by_user": 5,
+  "type": "upscale",
+  "user_actions": null,
+  "user_id": "8279a880-e345-48b1-a207-c77385215a29",
+  "user_reactions": null,
+  "username": "Trebeljahr",
+  "full_command": "<https://i.mj.run/e94f34da-7f8b-413e-b850-b0436742c0e8/0_1.png> a sorcerers tower, overgrown with vines, broken down, enchanted, magical mystery, cinematic, photorealistic",
+  "reference_job_id": "037cb91b-3678-4871-a9a3-7f20a03b15f0",
+  "reference_image_num": "0"
+}
