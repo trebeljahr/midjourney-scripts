@@ -55,7 +55,7 @@ for (const jsonFile of jsonFiles) {
     await exiftool.write(`${newPath}`, {
       Title: prompt,
       CreateDate: jsonData.enqueue_time
-    });
+    }, ["-overwrite_original"]);
 
     console.log(`Copied ${pngFile} to ${path.join(destDir, newFilename)}`);
   } catch (err) {
