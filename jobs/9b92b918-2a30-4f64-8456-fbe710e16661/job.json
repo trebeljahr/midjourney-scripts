@@ -1,0 +1,73 @@
+{
+  "_job_type": "diffusion_upsample_v4",
+  "_parsed_params": {
+    "creative": false,
+    "fast": false,
+    "hd": false,
+    "niji": false,
+    "no": [],
+    "style": "",
+    "test": false,
+    "testp": false,
+    "tile": false,
+    "upanime": false,
+    "upbeta": false,
+    "uplight": false,
+    "version": 4,
+    "vibe": false,
+    "video": false
+  },
+  "_service": "main",
+  "avatar_job_id": null,
+  "cover_job_id": null,
+  "current_status": "completed",
+  "enqueue_time": "2023-03-17 22:54:53.984771",
+  "event": {
+    "height": 1024,
+    "textPrompt": [
+      "Create an abstract design that evokes a sense of movement and fluidity. Use a combination of bold brush strokes and blended colors, focusing on hues of orange, red, and yellow."
+    ],
+    "imagePrompts": null,
+    "width": 1024,
+    "batchSize": 1,
+    "textPromptWeights": [
+      1
+    ],
+    "seedImageURL": "https://cdn.midjourney.com/180e8d0a-c70c-4221-8e24-97a977b4213c/0_0.png",
+    "eventType": "imagine",
+    "test": false
+  },
+  "flagged": false,
+  "followed_by_user": false,
+  "grid_id": null,
+  "grid_num": null,
+  "guild_id": null,
+  "hidden": false,
+  "id": "9b92b918-2a30-4f64-8456-fbe710e16661",
+  "image_paths": [
+    "https://cdn.midjourney.com/9b92b918-2a30-4f64-8456-fbe710e16661/0_0.png"
+  ],
+  "is_published": true,
+  "liked_by_user": false,
+  "low_priority": false,
+  "metered": false,
+  "mod_hidden": false,
+  "parent_grid": 0,
+  "parent_id": "180e8d0a-c70c-4221-8e24-97a977b4213c",
+  "platform": "discord",
+  "platform_channel": "Untracked",
+  "platform_channel_id": "1022535681219760179",
+  "platform_message_id": "1086422768838508586",
+  "platform_thread_id": null,
+  "prompt": "Create an abstract design that evokes a sense of movement and fluidity. Use a combination of bold brush strokes and blended colors, focusing on hues of orange, red, and yellow.",
+  "ranked_by_user": false,
+  "ranking_by_user": null,
+  "type": "upscale",
+  "user_actions": null,
+  "user_id": "8279a880-e345-48b1-a207-c77385215a29",
+  "user_reactions": null,
+  "username": "Trebeljahr",
+  "full_command": "Create an abstract design that evokes a sense of movement and fluidity. Use a combination of bold brush strokes and blended colors, focusing on hues of orange, red, and yellow.  --v 4",
+  "reference_job_id": "180e8d0a-c70c-4221-8e24-97a977b4213c",
+  "reference_image_num": "0"
+}

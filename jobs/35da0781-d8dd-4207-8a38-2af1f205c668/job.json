@@ -1,0 +1,73 @@
+{
+  "_job_type": "diffusion_upsample_v4",
+  "_parsed_params": {
+    "creative": false,
+    "fast": false,
+    "hd": false,
+    "niji": false,
+    "no": [],
+    "style": "",
+    "test": false,
+    "testp": false,
+    "tile": false,
+    "upanime": false,
+    "upbeta": false,
+    "uplight": false,
+    "version": 4,
+    "vibe": false,
+    "video": false
+  },
+  "_service": "main",
+  "avatar_job_id": null,
+  "cover_job_id": null,
+  "current_status": "completed",
+  "enqueue_time": "2023-02-27 10:13:39.923509",
+  "event": {
+    "height": 1024,
+    "textPrompt": [
+      "ice blue mountain river with big mountains and glaciers in the background"
+    ],
+    "imagePrompts": null,
+    "width": 1024,
+    "batchSize": 1,
+    "textPromptWeights": [
+      1
+    ],
+    "seedImageURL": "https://cdn.midjourney.com/f2f891bd-494a-4bbe-998c-45f5611be229/0_2.png",
+    "eventType": "imagine",
+    "test": false
+  },
+  "flagged": false,
+  "followed_by_user": false,
+  "grid_id": null,
+  "grid_num": null,
+  "guild_id": null,
+  "hidden": false,
+  "id": "35da0781-d8dd-4207-8a38-2af1f205c668",
+  "image_paths": [
+    "https://cdn.midjourney.com/35da0781-d8dd-4207-8a38-2af1f205c668/0_0.png"
+  ],
+  "is_published": true,
+  "liked_by_user": false,
+  "low_priority": false,
+  "metered": false,
+  "mod_hidden": false,
+  "parent_grid": null,
+  "parent_id": null,
+  "platform": "discord",
+  "platform_channel": "Untracked",
+  "platform_channel_id": "1022535681219760179",
+  "platform_message_id": "1079708208270168105",
+  "platform_thread_id": null,
+  "prompt": "ice blue mountain river with big mountains and glaciers in the background",
+  "ranked_by_user": false,
+  "ranking_by_user": null,
+  "type": "upscale",
+  "user_actions": null,
+  "user_id": "8279a880-e345-48b1-a207-c77385215a29",
+  "user_reactions": null,
+  "username": "Trebeljahr",
+  "full_command": "ice blue mountain river with big mountains and glaciers in the background  --v 4",
+  "reference_job_id": "f2f891bd-494a-4bbe-998c-45f5611be229",
+  "reference_image_num": "2"
+}

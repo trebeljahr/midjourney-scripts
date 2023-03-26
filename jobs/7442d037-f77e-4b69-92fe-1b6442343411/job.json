@@ -1,0 +1,73 @@
+{
+  "_job_type": "diffusion_upsample_v5_virtual",
+  "_parsed_params": {
+    "creative": false,
+    "fast": false,
+    "hd": false,
+    "niji": false,
+    "no": [],
+    "style": "",
+    "test": false,
+    "testp": false,
+    "tile": false,
+    "upanime": false,
+    "upbeta": false,
+    "uplight": false,
+    "version": 5,
+    "vibe": false,
+    "video": false
+  },
+  "_service": "main",
+  "avatar_job_id": null,
+  "cover_job_id": null,
+  "current_status": "completed",
+  "enqueue_time": "2023-03-17 23:03:23.031588",
+  "event": {
+    "height": 1024,
+    "textPrompt": [
+      "Design an abstract piece that captures the essence of a serene, tranquil landscape. Use a color palette consisting of cool tones, such as light blues, purples, and soft grays."
+    ],
+    "imagePrompts": null,
+    "width": 1024,
+    "batchSize": 1,
+    "textPromptWeights": [
+      1
+    ],
+    "seedImageURL": "https://cdn.midjourney.com/7e80b52c-e3fb-4f13-9fcf-e523f4d35544/0_2.png",
+    "eventType": "imagine",
+    "test": false
+  },
+  "flagged": false,
+  "followed_by_user": false,
+  "grid_id": null,
+  "grid_num": null,
+  "guild_id": null,
+  "hidden": false,
+  "id": "7442d037-f77e-4b69-92fe-1b6442343411",
+  "image_paths": [
+    "https://cdn.midjourney.com/7e80b52c-e3fb-4f13-9fcf-e523f4d35544/0_2.png"
+  ],
+  "is_published": true,
+  "liked_by_user": false,
+  "low_priority": false,
+  "metered": false,
+  "mod_hidden": false,
+  "parent_grid": 2,
+  "parent_id": "7e80b52c-e3fb-4f13-9fcf-e523f4d35544",
+  "platform": "discord",
+  "platform_channel": "Untracked",
+  "platform_channel_id": "1022535681219760179",
+  "platform_message_id": "1086424577338511422",
+  "platform_thread_id": null,
+  "prompt": "Design an abstract piece that captures the essence of a serene, tranquil landscape. Use a color palette consisting of cool tones, such as light blues, purples, and soft grays.",
+  "ranked_by_user": false,
+  "ranking_by_user": null,
+  "type": "v5_upscale",
+  "user_actions": null,
+  "user_id": "8279a880-e345-48b1-a207-c77385215a29",
+  "user_reactions": null,
+  "username": "Trebeljahr",
+  "full_command": "Design an abstract piece that captures the essence of a serene, tranquil landscape. Use a color palette consisting of cool tones, such as light blues, purples, and soft grays.  --v 5",
+  "reference_job_id": "7e80b52c-e3fb-4f13-9fcf-e523f4d35544",
+  "reference_image_num": "2"
+}

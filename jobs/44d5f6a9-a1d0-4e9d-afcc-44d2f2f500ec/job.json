@@ -1,0 +1,73 @@
+{
+  "_job_type": "diffusion_upsample_v4",
+  "_parsed_params": {
+    "anime": false,
+    "creative": false,
+    "fast": false,
+    "hd": false,
+    "no": [],
+    "style": "",
+    "test": false,
+    "testp": false,
+    "tile": false,
+    "upanime": false,
+    "upbeta": false,
+    "uplight": false,
+    "version": 4,
+    "vibe": false,
+    "video": false
+  },
+  "_service": "main",
+  "avatar_job_id": null,
+  "cover_job_id": null,
+  "current_status": "completed",
+  "enqueue_time": "2022-12-18 08:53:34.417275",
+  "event": {
+    "height": 1024,
+    "textPrompt": [
+      "8K, high resolution, underwater, wreck, old ship, sunken, godrays, atmosphere, diving, divers, wreck-diving, fish, schools of fish"
+    ],
+    "imagePrompts": null,
+    "width": 1024,
+    "batchSize": 1,
+    "textPromptWeights": [
+      1
+    ],
+    "seedImageURL": "https://cdn.midjourney.com/19578c64-bcca-4404-8acc-49a311a39513/0_0.png",
+    "eventType": "imagine",
+    "test": false
+  },
+  "flagged": false,
+  "followed_by_user": false,
+  "grid_id": null,
+  "grid_num": null,
+  "guild_id": null,
+  "hidden": false,
+  "id": "44d5f6a9-a1d0-4e9d-afcc-44d2f2f500ec",
+  "image_paths": [
+    "https://cdn.midjourney.com/44d5f6a9-a1d0-4e9d-afcc-44d2f2f500ec/0_0.png"
+  ],
+  "is_published": true,
+  "liked_by_user": false,
+  "low_priority": false,
+  "metered": false,
+  "mod_hidden": false,
+  "parent_grid": null,
+  "parent_id": null,
+  "platform": "discord",
+  "platform_channel": "Untracked",
+  "platform_channel_id": "1022535681219760179",
+  "platform_message_id": "1053958550386380800",
+  "platform_thread_id": null,
+  "prompt": "8K, high resolution, underwater, wreck, old ship, sunken, godrays, atmosphere, diving, divers, wreck-diving, fish, schools of fish",
+  "ranked_by_user": false,
+  "ranking_by_user": null,
+  "type": "upscale",
+  "user_actions": null,
+  "user_id": "8279a880-e345-48b1-a207-c77385215a29",
+  "user_reactions": null,
+  "username": "Trebeljahr",
+  "full_command": "8K, high resolution, underwater, wreck, old ship, sunken, godrays, atmosphere, diving, divers, wreck-diving, fish, schools of fish  --v 4",
+  "reference_job_id": "19578c64-bcca-4404-8acc-49a311a39513",
+  "reference_image_num": "0"
+}

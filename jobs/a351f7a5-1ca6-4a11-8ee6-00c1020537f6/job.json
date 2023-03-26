@@ -1,0 +1,73 @@
+{
+  "_job_type": "diffusion_upsample_v4",
+  "_parsed_params": {
+    "creative": false,
+    "fast": false,
+    "hd": false,
+    "niji": false,
+    "no": [],
+    "style": "",
+    "test": false,
+    "testp": false,
+    "tile": false,
+    "upanime": false,
+    "upbeta": false,
+    "uplight": false,
+    "version": 4,
+    "vibe": false,
+    "video": false
+  },
+  "_service": "main",
+  "avatar_job_id": null,
+  "cover_job_id": null,
+  "current_status": "completed",
+  "enqueue_time": "2023-01-22 16:17:38.698177",
+  "event": {
+    "height": 1024,
+    "textPrompt": [
+      "cells, cell network, electrical stimulus, neurons, thinking"
+    ],
+    "imagePrompts": null,
+    "width": 1024,
+    "batchSize": 1,
+    "textPromptWeights": [
+      1
+    ],
+    "seedImageURL": "https://cdn.midjourney.com/9a1d5922-019f-4157-a986-63ab1adaf264/0_1.png",
+    "eventType": "imagine",
+    "test": false
+  },
+  "flagged": false,
+  "followed_by_user": false,
+  "grid_id": null,
+  "grid_num": null,
+  "guild_id": null,
+  "hidden": false,
+  "id": "a351f7a5-1ca6-4a11-8ee6-00c1020537f6",
+  "image_paths": [
+    "https://cdn.midjourney.com/a351f7a5-1ca6-4a11-8ee6-00c1020537f6/0_0.png"
+  ],
+  "is_published": true,
+  "liked_by_user": false,
+  "low_priority": false,
+  "metered": false,
+  "mod_hidden": false,
+  "parent_grid": null,
+  "parent_id": null,
+  "platform": "discord",
+  "platform_channel": "Untracked",
+  "platform_channel_id": "1022535681219760179",
+  "platform_message_id": "1066753848070373436",
+  "platform_thread_id": null,
+  "prompt": "cells, cell network, electrical stimulus, neurons, thinking",
+  "ranked_by_user": false,
+  "ranking_by_user": null,
+  "type": "upscale",
+  "user_actions": null,
+  "user_id": "8279a880-e345-48b1-a207-c77385215a29",
+  "user_reactions": null,
+  "username": "Trebeljahr",
+  "full_command": "cells, cell network, electrical stimulus, neurons, thinking  --v 4",
+  "reference_job_id": "9a1d5922-019f-4157-a986-63ab1adaf264",
+  "reference_image_num": "1"
+}

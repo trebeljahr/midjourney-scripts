@@ -1,4 +1,5 @@
 #!/bin/bash
+PAGE=14
 # Synchronize your online Midjourney history with a local copy.
 #
 #
@@ -29,7 +30,6 @@ set -eu -o pipefail
 UA='Midjourney-history-sync/1.0'
 
 USER_ID=`cat userid.txt`
-PAGE=6
 read -e -p "Enter your Midjourney session token (eyJ...): " SESSION_TOKEN
 
 jobs="$(

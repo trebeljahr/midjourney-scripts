@@ -1,0 +1,73 @@
+{
+  "_job_type": "diffusion_upsample_v4",
+  "_parsed_params": {
+    "creative": false,
+    "fast": false,
+    "hd": false,
+    "niji": false,
+    "no": [],
+    "style": "",
+    "test": false,
+    "testp": false,
+    "tile": false,
+    "upanime": false,
+    "upbeta": false,
+    "uplight": false,
+    "version": 4,
+    "vibe": false,
+    "video": false
+  },
+  "_service": "main",
+  "avatar_job_id": null,
+  "cover_job_id": null,
+  "current_status": "completed",
+  "enqueue_time": "2023-01-22 16:05:51.258742",
+  "event": {
+    "height": 1024,
+    "textPrompt": [
+      "cellular factory"
+    ],
+    "imagePrompts": null,
+    "width": 1024,
+    "batchSize": 1,
+    "textPromptWeights": [
+      1
+    ],
+    "seedImageURL": "https://cdn.midjourney.com/3044b9ef-5587-4477-a1e1-1fac0f6ad0ee/0_3.png",
+    "eventType": "imagine",
+    "test": false
+  },
+  "flagged": false,
+  "followed_by_user": false,
+  "grid_id": null,
+  "grid_num": null,
+  "guild_id": null,
+  "hidden": false,
+  "id": "99c7f913-80f4-4f31-844c-6af6eed22c38",
+  "image_paths": [
+    "https://cdn.midjourney.com/99c7f913-80f4-4f31-844c-6af6eed22c38/0_0.png"
+  ],
+  "is_published": true,
+  "liked_by_user": false,
+  "low_priority": false,
+  "metered": false,
+  "mod_hidden": false,
+  "parent_grid": null,
+  "parent_id": null,
+  "platform": "discord",
+  "platform_channel": "Untracked",
+  "platform_channel_id": "1022535681219760179",
+  "platform_message_id": "1066750888120696956",
+  "platform_thread_id": null,
+  "prompt": "cellular factory",
+  "ranked_by_user": false,
+  "ranking_by_user": null,
+  "type": "upscale",
+  "user_actions": null,
+  "user_id": "8279a880-e345-48b1-a207-c77385215a29",
+  "user_reactions": null,
+  "username": "Trebeljahr",
+  "full_command": "cellular factory  --v 4",
+  "reference_job_id": "3044b9ef-5587-4477-a1e1-1fac0f6ad0ee",
+  "reference_image_num": "3"
+}
