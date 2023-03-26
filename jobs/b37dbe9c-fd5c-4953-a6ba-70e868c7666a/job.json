@@ -1,0 +1,57 @@
+{
+  "_job_type": null,
+  "_parsed_params": null,
+  "_service": null,
+  "avatar_job_id": null,
+  "cover_job_id": null,
+  "current_status": "completed",
+  "enqueue_time": "2022-09-22 22:15:56.00656",
+  "event": {
+    "height": 1664,
+    "textPrompt": [
+      "volcano eruption, starry sky, milkyway, reflection, blue-orange clouds, burning skies, photorealistic, cinematic"
+    ],
+    "imagePrompts": null,
+    "width": 1664,
+    "batchSize": 1,
+    "textPromptWeights": [
+      1
+    ],
+    "seedImageURL": "https://cdn.midjourney.com/6c2c4e49-2aa7-4c74-82f1-4df0c04813d5/0_0.png",
+    "eventType": "imagine",
+    "test": false
+  },
+  "flagged": false,
+  "followed_by_user": false,
+  "grid_id": null,
+  "grid_num": null,
+  "guild_id": null,
+  "hidden": false,
+  "id": "b37dbe9c-fd5c-4953-a6ba-70e868c7666a",
+  "image_paths": [
+    "https://cdn.midjourney.com/b37dbe9c-fd5c-4953-a6ba-70e868c7666a/0_0.png"
+  ],
+  "is_published": true,
+  "liked_by_user": false,
+  "low_priority": false,
+  "metered": false,
+  "mod_hidden": false,
+  "parent_grid": null,
+  "parent_id": null,
+  "platform": "discord",
+  "platform_channel": "DM",
+  "platform_channel_id": "1022535681219760179",
+  "platform_message_id": "1022632757794443274",
+  "platform_thread_id": null,
+  "prompt": "volcano eruption, starry sky, milkyway, reflection, blue-orange clouds, burning skies, photorealistic, cinematic",
+  "ranked_by_user": false,
+  "ranking_by_user": null,
+  "type": "upscale",
+  "user_actions": null,
+  "user_id": "8279a880-e345-48b1-a207-c77385215a29",
+  "user_reactions": null,
+  "username": "Trebeljahr",
+  "full_command": "<https://i.mj.run/a5a32426-6c72-4899-9fe5-fb0c79e0f8d2/0_0.png> volcano eruption, starry sky, milkyway, reflection, blue-orange clouds, burning skies, photorealistic, cinematic",
+  "reference_job_id": "6c2c4e49-2aa7-4c74-82f1-4df0c04813d5",
+  "reference_image_num": "0"
+}

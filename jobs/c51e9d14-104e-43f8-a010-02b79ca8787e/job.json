@@ -1,0 +1,57 @@
+{
+  "_job_type": null,
+  "_parsed_params": null,
+  "_service": null,
+  "avatar_job_id": null,
+  "cover_job_id": null,
+  "current_status": "completed",
+  "enqueue_time": "2022-10-01 13:38:08.302533",
+  "event": {
+    "height": 2048,
+    "textPrompt": [
+      "human astronaut in spacesuit floating around universal nebula at the creation of the universe"
+    ],
+    "imagePrompts": null,
+    "width": 2048,
+    "batchSize": 1,
+    "textPromptWeights": [
+      1
+    ],
+    "seedImageURL": "https://cdn.midjourney.com/cf24c2e1-a802-4698-9de7-c9a7b7d689ad/0_1.png",
+    "eventType": "imagine",
+    "test": false
+  },
+  "flagged": false,
+  "followed_by_user": false,
+  "grid_id": null,
+  "grid_num": null,
+  "guild_id": null,
+  "hidden": false,
+  "id": "c51e9d14-104e-43f8-a010-02b79ca8787e",
+  "image_paths": [
+    "https://cdn.midjourney.com/c51e9d14-104e-43f8-a010-02b79ca8787e/0_0.png"
+  ],
+  "is_published": true,
+  "liked_by_user": false,
+  "low_priority": false,
+  "metered": false,
+  "mod_hidden": false,
+  "parent_grid": null,
+  "parent_id": null,
+  "platform": "discord",
+  "platform_channel": "DM",
+  "platform_channel_id": "1022535681219760179",
+  "platform_message_id": "1025763776701677640",
+  "platform_thread_id": null,
+  "prompt": "human astronaut in spacesuit floating around universal nebula at the creation of the universe",
+  "ranked_by_user": false,
+  "ranking_by_user": null,
+  "type": "upscale",
+  "user_actions": null,
+  "user_id": "8279a880-e345-48b1-a207-c77385215a29",
+  "user_reactions": null,
+  "username": "Trebeljahr",
+  "full_command": "human astronaut in spacesuit floating around universal nebula at the creation of the universe  --s 5000   --testp --upbeta",
+  "reference_job_id": "cf24c2e1-a802-4698-9de7-c9a7b7d689ad",
+  "reference_image_num": "1"
+}

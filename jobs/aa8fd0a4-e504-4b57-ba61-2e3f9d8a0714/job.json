@@ -1,0 +1,57 @@
+{
+  "_job_type": null,
+  "_parsed_params": null,
+  "_service": null,
+  "avatar_job_id": null,
+  "cover_job_id": null,
+  "current_status": "completed",
+  "enqueue_time": "2022-10-05 11:23:27.270074",
+  "event": {
+    "height": 2048,
+    "textPrompt": [
+      "detailled pencil drawing of the brain"
+    ],
+    "imagePrompts": null,
+    "width": 2048,
+    "batchSize": 1,
+    "textPromptWeights": [
+      1
+    ],
+    "seedImageURL": "https://cdn.midjourney.com/2eb81ff2-0f13-414e-9cde-da9667e2985e/0_1.png",
+    "eventType": "imagine",
+    "test": false
+  },
+  "flagged": false,
+  "followed_by_user": false,
+  "grid_id": null,
+  "grid_num": null,
+  "guild_id": null,
+  "hidden": false,
+  "id": "aa8fd0a4-e504-4b57-ba61-2e3f9d8a0714",
+  "image_paths": [
+    "https://cdn.midjourney.com/aa8fd0a4-e504-4b57-ba61-2e3f9d8a0714/0_0.png"
+  ],
+  "is_published": true,
+  "liked_by_user": false,
+  "low_priority": false,
+  "metered": false,
+  "mod_hidden": false,
+  "parent_grid": null,
+  "parent_id": null,
+  "platform": "discord",
+  "platform_channel": "DM",
+  "platform_channel_id": "1022535681219760179",
+  "platform_message_id": "1027179432521236511",
+  "platform_thread_id": null,
+  "prompt": "detailled pencil drawing of the brain",
+  "ranked_by_user": false,
+  "ranking_by_user": null,
+  "type": "upscale",
+  "user_actions": null,
+  "user_id": "8279a880-e345-48b1-a207-c77385215a29",
+  "user_reactions": null,
+  "username": "Trebeljahr",
+  "full_command": "detailled pencil drawing of the brain  --s 5000   --testp --upbeta",
+  "reference_job_id": "2eb81ff2-0f13-414e-9cde-da9667e2985e",
+  "reference_image_num": "1"
+}

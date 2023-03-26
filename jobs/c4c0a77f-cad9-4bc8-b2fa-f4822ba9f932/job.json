@@ -1,0 +1,57 @@
+{
+  "_job_type": null,
+  "_parsed_params": null,
+  "_service": null,
+  "avatar_job_id": null,
+  "cover_job_id": null,
+  "current_status": "completed",
+  "enqueue_time": "2022-10-05 10:52:58.410684",
+  "event": {
+    "height": 2048,
+    "textPrompt": [
+      "writing down what I know"
+    ],
+    "imagePrompts": null,
+    "width": 2048,
+    "batchSize": 1,
+    "textPromptWeights": [
+      1
+    ],
+    "seedImageURL": "https://cdn.midjourney.com/cb3b138a-f000-4b97-b40f-b1c9ed15543a/0_0.png",
+    "eventType": "imagine",
+    "test": false
+  },
+  "flagged": false,
+  "followed_by_user": false,
+  "grid_id": null,
+  "grid_num": null,
+  "guild_id": null,
+  "hidden": false,
+  "id": "c4c0a77f-cad9-4bc8-b2fa-f4822ba9f932",
+  "image_paths": [
+    "https://cdn.midjourney.com/c4c0a77f-cad9-4bc8-b2fa-f4822ba9f932/0_0.png"
+  ],
+  "is_published": true,
+  "liked_by_user": false,
+  "low_priority": false,
+  "metered": false,
+  "mod_hidden": false,
+  "parent_grid": null,
+  "parent_id": null,
+  "platform": "discord",
+  "platform_channel": "DM",
+  "platform_channel_id": "1022535681219760179",
+  "platform_message_id": "1027171762238132294",
+  "platform_thread_id": null,
+  "prompt": "writing down what I know",
+  "ranked_by_user": false,
+  "ranking_by_user": null,
+  "type": "upscale",
+  "user_actions": null,
+  "user_id": "8279a880-e345-48b1-a207-c77385215a29",
+  "user_reactions": null,
+  "username": "Trebeljahr",
+  "full_command": "writing down what I know  --s 5000   --testp --upbeta",
+  "reference_job_id": "cb3b138a-f000-4b97-b40f-b1c9ed15543a",
+  "reference_image_num": "0"
+}

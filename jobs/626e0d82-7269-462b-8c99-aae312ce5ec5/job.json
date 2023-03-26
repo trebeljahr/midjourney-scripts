@@ -1,0 +1,57 @@
+{
+  "_job_type": null,
+  "_parsed_params": null,
+  "_service": null,
+  "avatar_job_id": null,
+  "cover_job_id": null,
+  "current_status": "completed",
+  "enqueue_time": "2022-10-05 10:50:17.573233",
+  "event": {
+    "height": 2048,
+    "textPrompt": [
+      "computer keyboard glowing blue dark, black"
+    ],
+    "imagePrompts": null,
+    "width": 2048,
+    "batchSize": 1,
+    "textPromptWeights": [
+      1
+    ],
+    "seedImageURL": "https://cdn.midjourney.com/7e32703c-7ea5-47c9-b8a9-1d4b0332aa5e/0_0.png",
+    "eventType": "imagine",
+    "test": false
+  },
+  "flagged": false,
+  "followed_by_user": false,
+  "grid_id": null,
+  "grid_num": null,
+  "guild_id": null,
+  "hidden": false,
+  "id": "626e0d82-7269-462b-8c99-aae312ce5ec5",
+  "image_paths": [
+    "https://cdn.midjourney.com/626e0d82-7269-462b-8c99-aae312ce5ec5/0_0.png"
+  ],
+  "is_published": true,
+  "liked_by_user": false,
+  "low_priority": false,
+  "metered": false,
+  "mod_hidden": false,
+  "parent_grid": null,
+  "parent_id": null,
+  "platform": "discord",
+  "platform_channel": "DM",
+  "platform_channel_id": "1022535681219760179",
+  "platform_message_id": "1027171088335118376",
+  "platform_thread_id": null,
+  "prompt": "computer keyboard glowing blue dark, black",
+  "ranked_by_user": false,
+  "ranking_by_user": null,
+  "type": "upscale",
+  "user_actions": null,
+  "user_id": "8279a880-e345-48b1-a207-c77385215a29",
+  "user_reactions": null,
+  "username": "Trebeljahr",
+  "full_command": "computer keyboard glowing blue dark, black  --s 5000   --testp --upbeta",
+  "reference_job_id": "7e32703c-7ea5-47c9-b8a9-1d4b0332aa5e",
+  "reference_image_num": "0"
+}

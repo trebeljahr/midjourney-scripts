@@ -1,0 +1,57 @@
+{
+  "_job_type": null,
+  "_parsed_params": null,
+  "_service": null,
+  "avatar_job_id": null,
+  "cover_job_id": null,
+  "current_status": "completed",
+  "enqueue_time": "2022-09-25 11:31:10.803309",
+  "event": {
+    "height": 1024,
+    "textPrompt": [
+      "high detail spaceship, space station, scifi, orbiting upper atmosphere"
+    ],
+    "imagePrompts": null,
+    "width": 1024,
+    "batchSize": 1,
+    "textPromptWeights": [
+      1
+    ],
+    "seedImageURL": "https://cdn.midjourney.com/7e284177-c02b-49a9-b1a8-01b7863eed11/0_1.png",
+    "eventType": "imagine",
+    "test": false
+  },
+  "flagged": false,
+  "followed_by_user": false,
+  "grid_id": null,
+  "grid_num": null,
+  "guild_id": null,
+  "hidden": false,
+  "id": "268ec25d-97c6-4d13-afcb-bb4e7b36d1f7",
+  "image_paths": [
+    "https://cdn.midjourney.com/268ec25d-97c6-4d13-afcb-bb4e7b36d1f7/0_0.png"
+  ],
+  "is_published": true,
+  "liked_by_user": false,
+  "low_priority": false,
+  "metered": false,
+  "mod_hidden": false,
+  "parent_grid": null,
+  "parent_id": null,
+  "platform": "discord",
+  "platform_channel": "DM",
+  "platform_channel_id": "1022535681219760179",
+  "platform_message_id": "1023557535082491986",
+  "platform_thread_id": null,
+  "prompt": "high detail spaceship, space station, scifi, orbiting upper atmosphere",
+  "ranked_by_user": false,
+  "ranking_by_user": null,
+  "type": "upscale",
+  "user_actions": null,
+  "user_id": "8279a880-e345-48b1-a207-c77385215a29",
+  "user_reactions": null,
+  "username": "Trebeljahr",
+  "full_command": "<https://i.mj.run/f0e80652-2803-4913-8dac-6d91c6e4b741/0_1.png> high detail spaceship, space station, scifi, orbiting upper atmosphere --s 5000 --v 3",
+  "reference_job_id": "7e284177-c02b-49a9-b1a8-01b7863eed11",
+  "reference_image_num": "1"
+}

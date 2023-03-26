@@ -1,0 +1,57 @@
+{
+  "_job_type": null,
+  "_parsed_params": null,
+  "_service": null,
+  "avatar_job_id": null,
+  "cover_job_id": null,
+  "current_status": "completed",
+  "enqueue_time": "2022-09-22 21:57:01.642273",
+  "event": {
+    "height": 1024,
+    "textPrompt": [
+      "orange haired woman, long dress, floating in outer space, darkness, milky way galaxy, space exploration, photorealistic, cinematic"
+    ],
+    "imagePrompts": null,
+    "width": 1024,
+    "batchSize": 1,
+    "textPromptWeights": [
+      1
+    ],
+    "seedImageURL": "https://cdn.midjourney.com/a127fb30-f7e1-4f08-a899-99325f1cfce1/0_2.png",
+    "eventType": "imagine",
+    "test": false
+  },
+  "flagged": false,
+  "followed_by_user": false,
+  "grid_id": null,
+  "grid_num": null,
+  "guild_id": null,
+  "hidden": false,
+  "id": "14287c20-94be-4bb8-8cfa-ba84f72bf025",
+  "image_paths": [
+    "https://cdn.midjourney.com/14287c20-94be-4bb8-8cfa-ba84f72bf025/0_0.png"
+  ],
+  "is_published": true,
+  "liked_by_user": false,
+  "low_priority": false,
+  "metered": false,
+  "mod_hidden": false,
+  "parent_grid": null,
+  "parent_id": null,
+  "platform": "discord",
+  "platform_channel": "DM",
+  "platform_channel_id": "1022535681219760179",
+  "platform_message_id": "1022627871782617098",
+  "platform_thread_id": null,
+  "prompt": "orange haired woman, long dress, floating in outer space, darkness, milky way galaxy, space exploration, photorealistic, cinematic",
+  "ranked_by_user": true,
+  "ranking_by_user": 5,
+  "type": "upscale",
+  "user_actions": null,
+  "user_id": "8279a880-e345-48b1-a207-c77385215a29",
+  "user_reactions": null,
+  "username": "Trebeljahr",
+  "full_command": "<https://i.mj.run/bc011307-389b-4276-861c-982cc696f321/0_0.png> orange haired woman, long dress, floating in outer space, darkness, milky way galaxy, space exploration, photorealistic, cinematic",
+  "reference_job_id": "a127fb30-f7e1-4f08-a899-99325f1cfce1",
+  "reference_image_num": "2"
+}

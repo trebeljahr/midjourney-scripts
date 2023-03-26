@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { exec } = require('child_process');
+const exiftool = require('exiftool-vendored').exiftool;
 
 // Check if the correct number of arguments are provided
 if (process.argv.length !== 4) {
@@ -38,21 +38,22 @@ for (const jsonFile of jsonFiles) {
     }
     const pngFile = pngFiles[0];
 
-    // Extract the prompt from the JSON data
-    const prompt = jsonData.prompt;
-    const number = jsonData.id;
+    // Extract the job ID from the JSON data
+    const jobId = jsonData.id;
 
-    // Replace spaces with underscores and remove special characters
-    const newFilename = `${prompt.replace(/[^\w\s]/g, '').replace(/\s/g, '_')}-${imageFilename}`;
+    // Replace special characters in the prompt with underscores
+    const prompt = jsonData.prompt.replace(/[^\w\s]/g, '_');
 
-    // Copy the PNG file to the destination directory with the new name
-    exec(`cp "${pngFile}" "${path.join(destDir, newFilename)}"`, (err, stdout, stderr) => {
-      if (err) {
-        console.error(stderr);
-      } else {
-        console.log(`Copied ${pngFile} to ${path.join(destDir, newFilename)}`);
-      }
+    // Construct the new filename with the job ID and image filename
+    const newFilename = `${jobId}-${imageFilename}`;
+
+    // Copy the PNG file to the destination directory with the new name and add the prompt to the metadata
+    await exiftool.write(`${pngFile}`, {
+      Title: prompt,
+      overwrite_original: true,
     });
+    fs.renameSync(pngFile, path.join(destDir, newFilename));
+    console.log(`Copied ${pngFile} to ${path.join(destDir, newFilename)}`);
   } catch (err) {
     console.error(`Error processing ${jsonFile}:`, err);
   }
