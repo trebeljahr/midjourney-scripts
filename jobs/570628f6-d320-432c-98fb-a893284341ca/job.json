@@ -1,0 +1,73 @@
+{
+  "_job_type": "diffusion_upsample_v5_virtual",
+  "_parsed_params": {
+    "creative": false,
+    "fast": false,
+    "hd": false,
+    "niji": false,
+    "no": [],
+    "style": "",
+    "test": false,
+    "testp": false,
+    "tile": false,
+    "upanime": false,
+    "upbeta": false,
+    "uplight": false,
+    "version": 5,
+    "vibe": false,
+    "video": false
+  },
+  "_service": "main",
+  "avatar_job_id": null,
+  "cover_job_id": null,
+  "current_status": "completed",
+  "enqueue_time": "2023-03-26 16:53:17.052199",
+  "event": {
+    "height": 1024,
+    "textPrompt": [
+      "a minimalist city skyline design using only rectangles and lines, incorporating a monochromatic color scheme."
+    ],
+    "imagePrompts": null,
+    "width": 1024,
+    "batchSize": 1,
+    "textPromptWeights": [
+      1
+    ],
+    "seedImageURL": "https://cdn.midjourney.com/37c45dec-6b95-4125-b077-c68b3511363b/0_0.png",
+    "eventType": "imagine",
+    "test": false
+  },
+  "flagged": false,
+  "followed_by_user": false,
+  "grid_id": null,
+  "grid_num": null,
+  "guild_id": null,
+  "hidden": false,
+  "id": "570628f6-d320-432c-98fb-a893284341ca",
+  "image_paths": [
+    "https://cdn.midjourney.com/37c45dec-6b95-4125-b077-c68b3511363b/0_0.png"
+  ],
+  "is_published": true,
+  "liked_by_user": false,
+  "low_priority": false,
+  "metered": false,
+  "mod_hidden": false,
+  "parent_grid": 0,
+  "parent_id": "37c45dec-6b95-4125-b077-c68b3511363b",
+  "platform": "discord",
+  "platform_channel": "Untracked",
+  "platform_channel_id": "1022535681219760179",
+  "platform_message_id": "1089592928768376862",
+  "platform_thread_id": null,
+  "prompt": "a minimalist city skyline design using only rectangles and lines, incorporating a monochromatic color scheme.",
+  "ranked_by_user": false,
+  "ranking_by_user": null,
+  "type": "v5_upscale",
+  "user_actions": null,
+  "user_id": "8279a880-e345-48b1-a207-c77385215a29",
+  "user_reactions": null,
+  "username": "Trebeljahr",
+  "full_command": "a minimalist city skyline design using only rectangles and lines, incorporating a monochromatic color scheme.  --v 5",
+  "reference_job_id": "37c45dec-6b95-4125-b077-c68b3511363b",
+  "reference_image_num": "0"
+}

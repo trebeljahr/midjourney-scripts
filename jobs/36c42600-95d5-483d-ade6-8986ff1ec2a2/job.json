@@ -1,0 +1,73 @@
+{
+  "_job_type": "diffusion_upsample_v5_virtual",
+  "_parsed_params": {
+    "creative": false,
+    "fast": false,
+    "hd": false,
+    "niji": false,
+    "no": [],
+    "style": "",
+    "test": false,
+    "testp": false,
+    "tile": false,
+    "upanime": false,
+    "upbeta": false,
+    "uplight": false,
+    "version": 5,
+    "vibe": false,
+    "video": false
+  },
+  "_service": "main",
+  "avatar_job_id": null,
+  "cover_job_id": null,
+  "current_status": "completed",
+  "enqueue_time": "2023-03-19 22:26:39.300857",
+  "event": {
+    "height": 1024,
+    "textPrompt": [
+      "a monk floating in space, lost in deep meditation, milkyway, space-nebula"
+    ],
+    "imagePrompts": null,
+    "width": 1024,
+    "batchSize": 1,
+    "textPromptWeights": [
+      1
+    ],
+    "seedImageURL": "https://cdn.midjourney.com/4dfa4d41-6a39-466e-81aa-dfbae68edcf8/0_2.png",
+    "eventType": "imagine",
+    "test": false
+  },
+  "flagged": false,
+  "followed_by_user": false,
+  "grid_id": null,
+  "grid_num": null,
+  "guild_id": null,
+  "hidden": false,
+  "id": "36c42600-95d5-483d-ade6-8986ff1ec2a2",
+  "image_paths": [
+    "https://cdn.midjourney.com/4dfa4d41-6a39-466e-81aa-dfbae68edcf8/0_2.png"
+  ],
+  "is_published": true,
+  "liked_by_user": false,
+  "low_priority": false,
+  "metered": false,
+  "mod_hidden": false,
+  "parent_grid": 2,
+  "parent_id": "4dfa4d41-6a39-466e-81aa-dfbae68edcf8",
+  "platform": "discord",
+  "platform_channel": "Untracked",
+  "platform_channel_id": "1022535681219760179",
+  "platform_message_id": "1087140110367195186",
+  "platform_thread_id": null,
+  "prompt": "a monk floating in space, lost in deep meditation, milkyway, space-nebula",
+  "ranked_by_user": false,
+  "ranking_by_user": null,
+  "type": "v5_upscale",
+  "user_actions": null,
+  "user_id": "8279a880-e345-48b1-a207-c77385215a29",
+  "user_reactions": null,
+  "username": "Trebeljahr",
+  "full_command": "a monk floating in space, lost in deep meditation, milkyway, space-nebula  --v 5",
+  "reference_job_id": "4dfa4d41-6a39-466e-81aa-dfbae68edcf8",
+  "reference_image_num": "2"
+}

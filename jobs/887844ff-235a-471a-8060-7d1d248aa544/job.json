@@ -1,0 +1,73 @@
+{
+  "_job_type": "diffusion_upsample_v5_virtual",
+  "_parsed_params": {
+    "creative": false,
+    "fast": false,
+    "hd": false,
+    "niji": false,
+    "no": [],
+    "style": "",
+    "test": false,
+    "testp": false,
+    "tile": false,
+    "upanime": false,
+    "upbeta": false,
+    "uplight": false,
+    "version": 5,
+    "vibe": false,
+    "video": false
+  },
+  "_service": "main",
+  "avatar_job_id": null,
+  "cover_job_id": null,
+  "current_status": "completed",
+  "enqueue_time": "2023-03-19 19:27:15.080076",
+  "event": {
+    "height": 1024,
+    "textPrompt": [
+      "a diver swimming next to a swarm of glowing squid"
+    ],
+    "imagePrompts": null,
+    "width": 1024,
+    "batchSize": 1,
+    "textPromptWeights": [
+      1
+    ],
+    "seedImageURL": "https://cdn.midjourney.com/ebd468f7-f4f9-4786-b82a-940f8e2e08a7/0_0.png",
+    "eventType": "imagine",
+    "test": false
+  },
+  "flagged": false,
+  "followed_by_user": false,
+  "grid_id": null,
+  "grid_num": null,
+  "guild_id": null,
+  "hidden": false,
+  "id": "887844ff-235a-471a-8060-7d1d248aa544",
+  "image_paths": [
+    "https://cdn.midjourney.com/ebd468f7-f4f9-4786-b82a-940f8e2e08a7/0_0.png"
+  ],
+  "is_published": true,
+  "liked_by_user": false,
+  "low_priority": false,
+  "metered": false,
+  "mod_hidden": false,
+  "parent_grid": 0,
+  "parent_id": "ebd468f7-f4f9-4786-b82a-940f8e2e08a7",
+  "platform": "discord",
+  "platform_channel": "Untracked",
+  "platform_channel_id": "1022535681219760179",
+  "platform_message_id": "1087094960500781158",
+  "platform_thread_id": null,
+  "prompt": "a diver swimming next to a swarm of glowing squid",
+  "ranked_by_user": false,
+  "ranking_by_user": null,
+  "type": "v5_upscale",
+  "user_actions": null,
+  "user_id": "8279a880-e345-48b1-a207-c77385215a29",
+  "user_reactions": null,
+  "username": "Trebeljahr",
+  "full_command": "a diver swimming next to a swarm of glowing squid  --v 5",
+  "reference_job_id": "ebd468f7-f4f9-4786-b82a-940f8e2e08a7",
+  "reference_image_num": "0"
+}

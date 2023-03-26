@@ -1,0 +1,73 @@
+{
+  "_job_type": "diffusion_upsample_v5_virtual",
+  "_parsed_params": {
+    "creative": false,
+    "fast": false,
+    "hd": false,
+    "niji": false,
+    "no": [],
+    "style": "",
+    "test": false,
+    "testp": false,
+    "tile": false,
+    "upanime": false,
+    "upbeta": false,
+    "uplight": false,
+    "version": 5,
+    "vibe": false,
+    "video": false
+  },
+  "_service": "main",
+  "avatar_job_id": null,
+  "cover_job_id": null,
+  "current_status": "completed",
+  "enqueue_time": "2023-03-26 17:02:33.12649",
+  "event": {
+    "height": 1024,
+    "textPrompt": [
+      "An abstract interpretation of sound waves using curved lines and a vibrant color palette."
+    ],
+    "imagePrompts": null,
+    "width": 1024,
+    "batchSize": 1,
+    "textPromptWeights": [
+      1
+    ],
+    "seedImageURL": "https://cdn.midjourney.com/5c332593-949b-4eaa-a240-fa9fd8cb159a/0_3.png",
+    "eventType": "imagine",
+    "test": false
+  },
+  "flagged": false,
+  "followed_by_user": false,
+  "grid_id": null,
+  "grid_num": null,
+  "guild_id": null,
+  "hidden": false,
+  "id": "146d3802-f4c1-498a-a27c-0a3344f335cc",
+  "image_paths": [
+    "https://cdn.midjourney.com/5c332593-949b-4eaa-a240-fa9fd8cb159a/0_3.png"
+  ],
+  "is_published": true,
+  "liked_by_user": false,
+  "low_priority": false,
+  "metered": false,
+  "mod_hidden": false,
+  "parent_grid": 3,
+  "parent_id": "5c332593-949b-4eaa-a240-fa9fd8cb159a",
+  "platform": "discord",
+  "platform_channel": "Untracked",
+  "platform_channel_id": "1022535681219760179",
+  "platform_message_id": "1089595262558810162",
+  "platform_thread_id": null,
+  "prompt": "An abstract interpretation of sound waves using curved lines and a vibrant color palette.",
+  "ranked_by_user": false,
+  "ranking_by_user": null,
+  "type": "v5_upscale",
+  "user_actions": null,
+  "user_id": "8279a880-e345-48b1-a207-c77385215a29",
+  "user_reactions": null,
+  "username": "Trebeljahr",
+  "full_command": "An abstract interpretation of sound waves using curved lines and a vibrant color palette.  --v 5",
+  "reference_job_id": "5c332593-949b-4eaa-a240-fa9fd8cb159a",
+  "reference_image_num": "3"
+}
