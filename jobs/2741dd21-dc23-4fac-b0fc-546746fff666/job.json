@@ -22,7 +22,7 @@
   "avatar_job_id": null,
   "cover_job_id": null,
   "current_status": "completed",
-  "enqueue_time": "2022-10-19 19:51:10.249539",
+  "enqueue_time": "2022-10-19 19:40:27.371883",
   "event": {
     "height": 2048,
     "textPrompt": [
@@ -34,7 +34,7 @@
     "textPromptWeights": [
       1
     ],
-    "seedImageURL": "https://cdn.midjourney.com/4e438cf0-54b3-40a0-87c8-6cf471f98c64/0_0.png",
+    "seedImageURL": "https://cdn.midjourney.com/507adb77-9dd4-4d6c-9a9f-d71e6e79b570/0_1.png",
     "eventType": "beta-upscale",
     "test": false
   },
@@ -44,9 +44,9 @@
   "grid_num": null,
   "guild_id": null,
   "hidden": false,
-  "id": "87850241-481b-43c9-a60f-26e1ed5bd99a",
+  "id": "2741dd21-dc23-4fac-b0fc-546746fff666",
   "image_paths": [
-    "https://cdn.midjourney.com/87850241-481b-43c9-a60f-26e1ed5bd99a/0_0.png"
+    "https://cdn.midjourney.com/2741dd21-dc23-4fac-b0fc-546746fff666/0_0.png"
   ],
   "is_published": true,
   "liked_by_user": false,
@@ -58,7 +58,7 @@
   "platform": "discord",
   "platform_channel": "Untracked",
   "platform_channel_id": "1022535681219760179",
-  "platform_message_id": "1032380632501854279",
+  "platform_message_id": "1032377999691096075",
   "platform_thread_id": null,
   "prompt": "person meditating on a mountain, aurora borealis",
   "ranked_by_user": false,
@@ -69,6 +69,6 @@
   "user_reactions": null,
   "username": "Trebeljahr",
   "full_command": "person meditating on a mountain, aurora borealis  --s 5000   --testp",
-  "reference_job_id": "4e438cf0-54b3-40a0-87c8-6cf471f98c64",
-  "reference_image_num": "0"
+  "reference_job_id": "507adb77-9dd4-4d6c-9a9f-d71e6e79b570",
+  "reference_image_num": "1"
 }

@@ -22,11 +22,11 @@
   "avatar_job_id": null,
   "cover_job_id": null,
   "current_status": "completed",
-  "enqueue_time": "2022-10-19 19:51:10.249539",
+  "enqueue_time": "2022-10-09 22:16:33.457171",
   "event": {
     "height": 2048,
     "textPrompt": [
-      "person meditating on a mountain, aurora borealis"
+      "open door, portal into different universe, forest, plants, mystery"
     ],
     "imagePrompts": null,
     "width": 2048,
@@ -34,7 +34,7 @@
     "textPromptWeights": [
       1
     ],
-    "seedImageURL": "https://cdn.midjourney.com/4e438cf0-54b3-40a0-87c8-6cf471f98c64/0_0.png",
+    "seedImageURL": "https://cdn.midjourney.com/36a24957-1a77-45ce-bc9c-f3856a7edc7a/0_1.png",
     "eventType": "beta-upscale",
     "test": false
   },
@@ -44,9 +44,9 @@
   "grid_num": null,
   "guild_id": null,
   "hidden": false,
-  "id": "87850241-481b-43c9-a60f-26e1ed5bd99a",
+  "id": "4afaa794-6b4e-43ce-8923-c5dd9c910c69",
   "image_paths": [
-    "https://cdn.midjourney.com/87850241-481b-43c9-a60f-26e1ed5bd99a/0_0.png"
+    "https://cdn.midjourney.com/4afaa794-6b4e-43ce-8923-c5dd9c910c69/0_0.png"
   ],
   "is_published": true,
   "liked_by_user": false,
@@ -58,9 +58,9 @@
   "platform": "discord",
   "platform_channel": "Untracked",
   "platform_channel_id": "1022535681219760179",
-  "platform_message_id": "1032380632501854279",
+  "platform_message_id": "1028793341736910918",
   "platform_thread_id": null,
-  "prompt": "person meditating on a mountain, aurora borealis",
+  "prompt": "open door, portal into different universe, forest, plants, mystery",
   "ranked_by_user": false,
   "ranking_by_user": null,
   "type": "upscale",
@@ -68,7 +68,7 @@
   "user_id": "8279a880-e345-48b1-a207-c77385215a29",
   "user_reactions": null,
   "username": "Trebeljahr",
-  "full_command": "person meditating on a mountain, aurora borealis  --s 5000   --testp",
-  "reference_job_id": "4e438cf0-54b3-40a0-87c8-6cf471f98c64",
-  "reference_image_num": "0"
+  "full_command": "open door, portal into different universe, forest, plants, mystery  --s 5000   --testp",
+  "reference_job_id": "36a24957-1a77-45ce-bc9c-f3856a7edc7a",
+  "reference_image_num": "1"
 }

@@ -22,11 +22,11 @@
   "avatar_job_id": null,
   "cover_job_id": null,
   "current_status": "completed",
-  "enqueue_time": "2022-10-19 19:51:10.249539",
+  "enqueue_time": "2022-10-18 11:20:52.852514",
   "event": {
     "height": 2048,
     "textPrompt": [
-      "person meditating on a mountain, aurora borealis"
+      "mechanical planet, technology"
     ],
     "imagePrompts": null,
     "width": 2048,
@@ -34,7 +34,7 @@
     "textPromptWeights": [
       1
     ],
-    "seedImageURL": "https://cdn.midjourney.com/4e438cf0-54b3-40a0-87c8-6cf471f98c64/0_0.png",
+    "seedImageURL": "https://cdn.midjourney.com/f4d020a3-6ec7-4f09-a51d-fe02b8c7b2f9/0_1.png",
     "eventType": "beta-upscale",
     "test": false
   },
@@ -44,9 +44,9 @@
   "grid_num": null,
   "guild_id": null,
   "hidden": false,
-  "id": "87850241-481b-43c9-a60f-26e1ed5bd99a",
+  "id": "fa7a7717-7344-46b7-83ba-6acb6cb27e45",
   "image_paths": [
-    "https://cdn.midjourney.com/87850241-481b-43c9-a60f-26e1ed5bd99a/0_0.png"
+    "https://cdn.midjourney.com/fa7a7717-7344-46b7-83ba-6acb6cb27e45/0_0.png"
   ],
   "is_published": true,
   "liked_by_user": false,
@@ -58,9 +58,9 @@
   "platform": "discord",
   "platform_channel": "Untracked",
   "platform_channel_id": "1022535681219760179",
-  "platform_message_id": "1032380632501854279",
+  "platform_message_id": "1031889827450343509",
   "platform_thread_id": null,
-  "prompt": "person meditating on a mountain, aurora borealis",
+  "prompt": "mechanical planet, technology",
   "ranked_by_user": false,
   "ranking_by_user": null,
   "type": "upscale",
@@ -68,7 +68,7 @@
   "user_id": "8279a880-e345-48b1-a207-c77385215a29",
   "user_reactions": null,
   "username": "Trebeljahr",
-  "full_command": "person meditating on a mountain, aurora borealis  --s 5000   --testp",
-  "reference_job_id": "4e438cf0-54b3-40a0-87c8-6cf471f98c64",
-  "reference_image_num": "0"
+  "full_command": "mechanical planet, technology  --s 5000   --testp",
+  "reference_job_id": "f4d020a3-6ec7-4f09-a51d-fe02b8c7b2f9",
+  "reference_image_num": "1"
 }
