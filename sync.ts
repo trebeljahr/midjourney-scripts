@@ -1,6 +1,5 @@
-import inquirer from "inquirer";
-import axios, { AxiosError } from "axios";
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "fs";
+import { readFileSync } from "fs";
+import axios from "axios";
 
 const userId = readFileSync("userid.txt", "utf-8").trim();
 const totalPages = 21;
